@@ -5,7 +5,7 @@ import { useState } from "react";
 function Header() {
   const [checked, setChecked] = useState(false);
   return (
-    <div className="flex mx-6 items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
+    <div className="flex mx-6 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
       <div className="ml-4">
         <img
           src={zwiltLogo}

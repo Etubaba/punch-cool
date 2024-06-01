@@ -15,9 +15,14 @@ module.exports = {
         },
         "zwilt-gray": {
           100: "#F3F3F3",
+          200: "#F2F2F2",
+          300: "#F8F8F8",
         },
         "zwilt-text": {
           100: "#202229",
+        },
+        "zwilt-title": {
+          200: "#202229",
         },
       },
     },
