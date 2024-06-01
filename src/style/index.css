@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* menu for mobile */
+.line-top {
+    transform: translateY(-7px);
+    transition: transform .25s, opacity .35s;
+}
+
+.line-bottom {
+    transform: translateY(7px);
+    transition: transform .25s, opacity .35s;
+}
+
+#checkbox:checked~.line-bottom {
+    transform: rotate(-45deg);
+}
+
+#checkbox:checked~.line-top {
+    transform: rotate(45deg);
+}
+
+#checkbox:checked~.line-middle {
+    transform: rotate(16px);
+    opacity: 0;
+}
