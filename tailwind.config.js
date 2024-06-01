@@ -16,6 +16,9 @@ module.exports = {
         "zwilt-gray": {
           100: "#F3F3F3",
         },
+        "zwilt-text": {
+          100: "#202229",
+        },
       },
     },
   },

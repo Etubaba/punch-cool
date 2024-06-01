@@ -41,6 +41,49 @@ function Header() {
         </a>
       </div>
       <Menu yes={checked} setChecked={setChecked} />
+      {checked && (
+        <div
+          className={` md:hidden  w-[21.6rem] mt-12 -ml-4  rounded-xl  mx-10  absolute ${
+            !checked && "opacity-0"
+          } px-5 py-5 top-12 animate__animated animate__fadeInLeft z-50 flex flex-col text-center h-auto justify-center space-y-3 items-start bg-zwilt-purple-100 `}
+        >
+          <a
+            onClick={() => {
+              setChecked(false);
+            }}
+            className="hover:bg-[#1B242F]/30  text-zwilt-text-100  py-1 w-full rounded-md"
+          >
+            Find work
+          </a>
+
+          <p
+            onClick={() => {
+              setChecked(false);
+            }}
+            className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
+          >
+            Find Talent
+          </p>
+
+          <p
+            onClick={() => {
+              setChecked(false);
+            }}
+            className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
+          >
+            Articles
+          </p>
+
+          <p
+            onClick={() => {
+              setChecked(false);
+            }}
+            className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
+          >
+            Contact Us
+          </p>
+        </div>
+      )}
     </div>
   );
 }
