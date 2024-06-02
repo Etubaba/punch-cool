@@ -7,6 +7,7 @@ module.exports = {
         "zwilt-white": "#ffffff",
         "zwilt-purple": {
           100: "#EDEFFF",
+          200: "#8BA4FD",
           600: "#525AA0",
           900: "#202229",
         },
@@ -21,6 +22,7 @@ module.exports = {
         },
         "zwilt-text": {
           100: "#202229",
+          200: "#1E1515",
         },
         "zwilt-title": {
           200: "#202229",
