@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import FaqSection from "./components/home/faq/FaqSection";
 import HeroSection from "./components/home/hero/HeroSection";
@@ -18,6 +19,7 @@ function App() {
       <StartJourney />
       <Reasons />
       <FaqSection />
+      <Footer />
     </div>
   );
 }

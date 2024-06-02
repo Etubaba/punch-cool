@@ -7,7 +7,7 @@ const FaqSection = () => {
   return (
     <section className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:mx-w-7xl">
       <div className="bg-zwilt-gray-100 w-full  polygon h-8 md:h-12"></div>
-      <div className="bg-zwilt-gray-100 w-full flex -mt-1  py-16">
+      <div className="bg-zwilt-gray-100 w-full flex -mt-1 pb-14 md:pb-32  pt-16">
         <div className="w-full">
           <p className="md:text-5xl text-[32px]  px-4  text-zwilt-title-200 font-bold !text-center mb-10 md:mb-20">
             Frequently asked questions
