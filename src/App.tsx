@@ -1,25 +1,36 @@
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import FaqSection from "./components/home/faq/FaqSection";
-import HeroSection from "./components/home/hero/HeroSection";
-import StartJourney from "./components/home/journeysection/StartJourney";
-import BrandSection from "./components/home/marketplace/BrandSection";
-import Reasons from "./components/home/reason-section/Reasons";
-import HowItWork from "./components/home/section3/HowItWork";
-import InGoodHands from "./components/home/section4/InGoodHands";
+import Home from "./components/home/Home";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Root from "./layout/Root";
+import FindWork from "./pages/FindWork";
+import FindTalent from "./pages/FindTalent";
+import Articles from "./pages/Articles";
+import ContactUs from "./pages/ContactUs";
+import Login from "./pages/Login";
+import LearnMore from "./pages/LearnMore";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+      <Route index element={<Home />} />
+      <Route path="/find-work" element={<FindWork />} />
+      <Route path="/find-talent" element={<FindTalent />} />
+      <Route path="/articles" element={<Articles />} />
+      <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/learn-more" element={<LearnMore />} />
+    </Route>
+  )
+);
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <HeroSection />
-      <BrandSection />
-      <HowItWork />
-      <InGoodHands />
-      <StartJourney />
-      <Reasons />
-      <FaqSection />
-      <Footer />
+    <div>
+      <RouterProvider router={router} />
     </div>
   );
 }

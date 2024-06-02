@@ -8,11 +8,11 @@
 
 
 
-
+/* 
 @layer base {
     @font-face {
-        font-family: 'Gilroy-bold';
-        src: url('/fonts/Gilroy/Gilroy-bold.woff') format('woff');
+        font-family: 'Switzer-bold';
+        src: url('/fonts/Switzer-Bold.woff') format('woff');
         font-weight: 600;
         font-style: normal;
     }
@@ -20,12 +20,28 @@
 
 @layer base {
     @font-face {
-        font-family: 'Gilroy-regular';
-        src: url('/fonts/Gilroy/Gilroy-regular.woff') format('woff');
+        font-family: 'Switzer-regular';
+        src: url('/fonts/Switzer-Regular.woff') format('woff');
         font-weight: 400;
         font-style: normal;
     }
 }
+@layer base {
+    @font-face {
+        font-family: 'Switzer-medium';
+        src: url('/fonts/Switzer-Medium.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+@layer base {
+    @font-face {
+        font-family: 'Switzer-light';
+        src: url('fonts/Switzer-Light.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+} */
 
 
 /* menu for mobile */

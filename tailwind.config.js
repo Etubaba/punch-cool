@@ -41,6 +41,13 @@ module.exports = {
           400: "#202229",
         },
       },
+      fontFamily: {
+        switzerBold: ["Switzer-bold", "sans-serif"],
+        switzerblack: ["Switzer-black", "sans-serif"],
+        switzerMedium: ["Switzer-medium", "sans-serif"],
+        switzerRegular: ["Switzer-regular", "sans-serif"],
+        switzerRegular: ["Switzer-light", "sans-serif"],
+      },
     },
   },
   plugins: [],
