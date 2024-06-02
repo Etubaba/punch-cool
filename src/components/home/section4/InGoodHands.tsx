@@ -5,33 +5,6 @@ import { videoContents } from "./content";
 function InGoodHands() {
   const [activeStep, setActiveStep] = useState("Step 1");
 
-  //   const VideosSec = [
-  //     {
-  //       background: "#EDEFFF",
-  //       videoNum: vid1Num,
-  //       videoImg: vid1Img,
-  //       title: "Find your next star performer",
-  //       body: "Explore the vast Zwilt marketplace to find the candidate that meets your needs.",
-  //       buttonTitle: "Join Now",
-  //     },
-  //     {
-  //       background: "#FFF7E1",
-  //       videoNum: vid2Num,
-  //       videoImg: vid2Img,
-  //       title: "Evaluate to your heart’s content.",
-  //       body: "Assess the candidate through work history, transparent tests and video interviews.",
-  //       buttonTitle: "Browse More",
-  //     },
-  //     {
-  //       background: "#F3F3F3",
-  //       videoNum: vid3Num,
-  //       videoImg: vid3Img,
-  //       title: "Start  building your team",
-  //       body: "Onboard your candidate right away and start creating the next big thing.",
-  //       buttonTitle: "Join Now",
-  //     },
-  //   ];
-
   const handleChange = (inputStep: string) => {
     if (activeStep === inputStep) {
       return;
@@ -44,10 +17,10 @@ function InGoodHands() {
       <div className="bg-white w-full  polygon h-8 md:h-12"></div>
       <div className="bg-white w-full flex -mt-1  px-4 md:px-10 py-28">
         <div className="flex flex-col gap-4 md:w-1/2 ">
-          <h1 className="text-[54px] md:max-w-[570px] leading-[64px] text-zwilt-title-200 font-bold">
+          <h1 className="md:text-[54px] md:max-w-[570px] md:leading-[64px] text-[48px] leading-[55px] text-zwilt-title-200 font-bold">
             How we ensure you're in good hands.
           </h1>
-          <p className="text-[22px] mt-2 leading-[32px] text-zwilt-text-200/80 md:max-w-[646px] ">
+          <p className="md:text-[22px] text-lg mt-2 leading-[32px] text-zwilt-text-200/80 md:max-w-[646px] ">
             With our comprehensive screening process, we hand-pick highly
             skilled candidates so you can onboard them in a matter of days.
           </p>
@@ -81,7 +54,7 @@ function InGoodHands() {
                   </span>
                 </div>
                 {activeStep === content.step && (
-                  <p className="text-lg animate__animated animate__fadeIn">
+                  <p className="text-lg animate__animated animate__fadeIn transform duration-700">
                     {content.message}
                   </p>
                 )}
@@ -89,25 +62,6 @@ function InGoodHands() {
             ))}
           </div>
         </div>
-        {/* <div className='flex flex-col gap-4'>
-        <p className='text-4xl font-bold'>Start your journey today.</p>
-        {VideosSec.map((videos) => (
-          <div className='flex gap-4 p-4 bg-white rounded-lg shadow-md'>
-            <div className='flex gap-2'>
-              <img src={videos.videoNum} alt='video Number' height={83} />
-              <div className='flex flex-col gap-2'>
-                <p className='text-2xl font-bold'>{videos.title}</p>
-                <p className='text-lg'>{videos.body}</p>
-                 <ButtonMini text={videos.buttonTitle} /> 
-              </div>
-            </div>
-            <div className='hidden md:block'>
-              <img src={videos.videoImg} alt='alt picture' />
-            </div>
-          </div>
-        ))}
-      </div> */}
-        {/* </div> */}
       </div>
     </section>
   );
