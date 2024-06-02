@@ -28,7 +28,7 @@ const HowItWork = () => {
       <div className="bg-zwilt-purple-900 w-full flex -mt-1 pt-[150px] px-4 md:px-10 py-28 ">
         <div className="flex md:flex-row flex-col md:w-[90%] justify-between">
           <div>
-            <div className="md:text-[54px] text-[48px] leading-10 md:leading-[64px] font-bold text-white">
+            <div className="md:text-[54px]  text-4xl leading-[50px] md:leading-[64px] font-bold text-white">
               <h1 className="md:max-w-[379px] ">How it worked</h1>
               <span className="flex space-x-2">
                 <h1 className="mr-1"> for jason</h1>

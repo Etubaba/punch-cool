@@ -10,7 +10,7 @@ const BrandSection = () => {
       <div className=" bg-zwilt-purple-100  w-full polygon h-8 md:h-12"></div>
       <div className=" bg-zwilt-purple-100  -mt-2 md:py-20 py-10 px-4 md:px-10">
         <div className="text-center mb-16 md:px-24">
-          <p className="md:text-[54px]   text-3xl md:leading-[64px] leading-[50px] font-bold text-zwilt-title-200">
+          <p className="md:text-[54px]   text-3xl leading-[50px] md:leading-[64px]  font-bold text-zwilt-title-200">
             Your one-stop marketplace for finding the talent your business
             needs.
           </p>
