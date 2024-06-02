@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import FaqSection from "./components/home/faq/FaqSection";
 import HeroSection from "./components/home/hero/HeroSection";
 import StartJourney from "./components/home/journeysection/StartJourney";
 import BrandSection from "./components/home/marketplace/BrandSection";
@@ -16,6 +17,7 @@ function App() {
       <InGoodHands />
       <StartJourney />
       <Reasons />
+      <FaqSection />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { cardContent } from "./content";
 
 const Reasons = () => {
   return (
-    <section className=" py-20 bg-gradient-to-b from-zwilt-gray-150 via-zwilt-purple-300 to-zwilt-purple-150">
+    <section className=" pt-20 pb-28 bg-gradient-to-b from-zwilt-gray-150 via-zwilt-purple-300 to-zwilt-purple-150">
       <div className="  flex md:flex-row flex-col mx-4 items-center  md:mx-10 ">
         <div className="md:w-1/3 mb-6 md:mb-0">
           <h1 className="md:text-[54px] md:max-w-[380px] md:leading-[64px] text-center md:!text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">

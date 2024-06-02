@@ -26,6 +26,7 @@ module.exports = {
           150: "#FDFDFF",
           200: "#F2F2F2",
           300: "#F8F8F8",
+          400: "#D6D6D6",
         },
         "zwilt-text": {
           100: "#202229",

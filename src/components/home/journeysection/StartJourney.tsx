@@ -29,7 +29,7 @@ const StartJourney = () => {
                   <img
                     src={step.imageNumber}
                     className="md:h-[83px] h-[60px]"
-                    alt="number image"
+                    alt="number"
                   />
                 </div>
                 <div className="flex flex-col  ml-4 md:ml-[20px] md:w-[407px]">
@@ -46,7 +46,7 @@ const StartJourney = () => {
                 <img
                   src={step.image}
                   className="md:w-[460px] md:h-[380px] "
-                  alt="developer image"
+                  alt="developer"
                 />
               </div>
             </div>

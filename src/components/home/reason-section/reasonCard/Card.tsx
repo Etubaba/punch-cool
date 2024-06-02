@@ -1,4 +1,3 @@
-import cardImg from "../../../../assets/card2.png";
 import { HiOutlineMinusSm } from "react-icons/hi";
 import Button from "../../../common/Button";
 import { CardProps } from "../../../../interface/components";
