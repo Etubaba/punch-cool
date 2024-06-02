@@ -28,3 +28,15 @@
     transform: rotate(16px);
     opacity: 0;
 }
+
+
+.polygon {
+    /* clip-path: polygon(0 15px, 100% 0, 100% 95%, 0 100%); */
+    clip-path: polygon(0 35px, 100% 0, 100% 95%, 0 100%);
+}
+
+@media(max-width: 450px) {
+.polygon {
+        clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%);
+    }
+}

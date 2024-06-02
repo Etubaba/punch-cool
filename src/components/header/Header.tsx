@@ -5,7 +5,7 @@ import { useState } from "react";
 function Header() {
   const [checked, setChecked] = useState(false);
   return (
-    <div className="flex mx-6 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
+    <div className="flex mx-4 md:mx-10 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
       <div className="ml-4">
         <img
           src={zwiltLogo}
@@ -48,6 +48,7 @@ function Header() {
           } px-5 py-5 top-12 animate__animated animate__fadeInLeft z-50 flex flex-col text-center h-auto justify-center space-y-3 items-start bg-zwilt-purple-100 `}
         >
           <a
+            href="#"
             onClick={() => {
               setChecked(false);
             }}
@@ -56,32 +57,35 @@ function Header() {
             Find work
           </a>
 
-          <p
+          <a
+            href="#"
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Find Talent
-          </p>
+          </a>
 
-          <p
+          <a
+            href="#"
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Articles
-          </p>
+          </a>
 
-          <p
+          <a
+            href="#"
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Contact Us
-          </p>
+          </a>
         </div>
       )}
     </div>

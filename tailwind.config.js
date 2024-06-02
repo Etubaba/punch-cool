@@ -8,6 +8,7 @@ module.exports = {
         "zwilt-purple": {
           100: "#EDEFFF",
           600: "#525AA0",
+          900: "#202229",
         },
         "zwilt-yellow": {
           100: "#FFF7E1",

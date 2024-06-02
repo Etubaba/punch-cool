@@ -1,7 +1,8 @@
-import React, { useState, useRef } from "react";
+import { useState } from "react";
 
 import heroFaceGIF from "../../../assets/hero-face-gif.gif";
 import inputIcon from "../../../assets/input-Icon.svg";
+import imageDivider from "../../../assets/image-divider.svg";
 import { skillsChoice } from "./content";
 
 export default function HeroSection() {
@@ -9,27 +10,10 @@ export default function HeroSection() {
   const [searchValue, setSearchValue] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const elementRef = useRef(null);
-
-  //   const handleToggle = () => {
-  //     // if (!isSmallScreen) {
-  //     if (elementRef.current) {
-  //       if (isAtFirstPosition) {
-  //         //@ts-ignore
-  //         elementRef.current.style.transform = `translateX(220px)`;
-  //       } else {
-  //         //@ts-ignore
-  //         elementRef.current.style.transform = "translateX(0)";
-  //       }
-  //       setIsAtFirstPosition(!isAtFirstPosition);
-  //     }
-  //     // }
-  //   };
-
   return (
     <section>
-      <div className="relative z-10 2xl:mx-auto 2xl:mx-w-7xl px-4  mb-80">
-        <div className="flex flex-col">
+      <div className="relative z-10 2xl:mx-auto 2xl:mx-w-7xl px-4 ">
+        <div className="flex flex-col mb-10 md:mb-20">
           <div className="w-full mt-16 md:mt-36 flex items-center justify-center mb-5">
             <div className="text-center w-full  text-zwilt-title-200   text-4xl  leading-[50px] md:text-[54px] font-bold md:leading-[64px] ">
               <span className="md:flex  block justify-center items-center">
@@ -117,6 +101,9 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="w-full z-10 relative">
+        <img src={imageDivider} alt="" className="w-full" />
       </div>
     </section>
   );
