@@ -29,6 +29,11 @@
     opacity: 0;
 }
 
+img {
+   
+    margin: 0 !important;
+}
+
 
 .polygon {
     /* clip-path: polygon(0 15px, 100% 0, 100% 95%, 0 100%); */
