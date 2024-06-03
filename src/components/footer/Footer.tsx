@@ -27,7 +27,7 @@ function Footer() {
             <img
               src={buttonIcon}
               alt="Button Icon"
-              className="transform rotate-90 w-[20px] h-[20px] md:w-[73.76px] md:h-[73.76px]"
+              className="transform rotate-90 w-[20px] h-[20px] md:w-[24.91px] md:h-[14.95px]"
             />
           </div>
         </div>

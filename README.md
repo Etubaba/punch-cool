@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# PUNCH COOL ASSESSMENT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+This project was deployed on [Vercel.com](https://vercel.com/) and can be accessed [here](https://punch-cool-six.vercel.app/).
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a landing page web application built with React JS (version 18.3.1). This high-performance landing page prioritizes clarity and user experience. Its flawless responsiveness ensures optimal rendering across devices, while SEO best practices and a maintainable codebase guarantee long-term success.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Documentation
 
-### `npm test`
+This React project leverages several key technologies to deliver a high-performance and user-friendly experience:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Type Safety: TypeScript ensures strong typing throughout the codebase, promoting maintainability and reducing runtime errors.
+- Styling: Tailwind CSS provides a utility-first approach to styling, streamlining development and promoting consistency.
+- Routing: React Router DOM facilitates seamless navigation between different sections of the landing page.
+- Animations: A combination of Animate.css and Tailwind CSS animations enhances the user experience with dynamic interactions.
+  Icons: React Icons offers a comprehensive library of vector icons for a visually appealing interface.
 
-### `npm run build`
+### Challenges and Solutions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One of the primary challenges encountered during development involved working with clip-path polygons to achieve a desired visual effect. To overcome this, I consulted the official Mozilla Developer Network documentation, [here](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). for in-depth guidance on clip-path properties and syntax. This resource proved invaluable in successfully implementing the desired polygon clipping behavior.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Firstly install, then run the development server:
 
-### `npm run eject`
+```bash
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

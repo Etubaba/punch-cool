@@ -8,11 +8,13 @@ function Header() {
   return (
     <div className="flex mx-4 md:mx-10 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
       <div className="ml-4">
-        <img
-          src={zwiltLogo}
-          alt="Zwilt logo"
-          className="md:h-[27.35px] md:w-[112px] h-[25px] w-[100px] "
-        />
+        <Link to="/">
+          <img
+            src={zwiltLogo}
+            alt="Zwilt logo"
+            className="md:h-[27.35px] md:w-[112px] h-[25px] w-[100px] "
+          />
+        </Link>
       </div>
 
       <div className="md:flex hidden space-x-6 text-sm font-medium">
