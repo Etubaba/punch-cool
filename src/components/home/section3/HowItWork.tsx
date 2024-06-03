@@ -7,14 +7,14 @@ import rightIcon from "../../../assets/rightIcon.png";
 import { useState } from "react";
 
 const HowItWork = () => {
-  const [backgroundImage, setBackgroundImage] = useState(false);
+  const [avatar, setAvatar] = useState(false);
 
-  const handleMouseEnter = () => {
-    setBackgroundImage(true);
+  const handleHover = () => {
+    setAvatar(true);
   };
 
-  const handleMouseLeave = () => {
-    setBackgroundImage(false);
+  const handleHoverOut = () => {
+    setAvatar(false);
   };
 
   return (
@@ -26,7 +26,7 @@ const HowItWork = () => {
       />
       <div className="bg-zwilt-purple-900 w-full  polygon h-8 md:h-12"></div>
       <div className="bg-zwilt-purple-900 w-full flex -mt-1 md:pt-[150px] px-4 md:px-10 py-20 md:py-28 ">
-        <div className="flex md:flex-row flex-col md:w-[90%] justify-between">
+        <div className="flex md:flex-row flex-col md:w-full lg:w-[90%] justify-between">
           <div>
             <div className="md:text-[54px] font-switzerBold  text-4xl leading-[50px] md:leading-[64px] font-bold text-white">
               <h1 className="md:max-w-[379px] ">How it worked</h1>
@@ -75,15 +75,12 @@ const HowItWork = () => {
             </div>
           </div>
 
-          <div className="md:mt-28">
+          <div className="lg:mt-28 md:mt-4">
             <div className="flex space-x-3">
-              <div
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-              >
+              <div onMouseEnter={handleHover} onMouseLeave={handleHoverOut}>
                 <img
                   className="w-[70px] h-[70px] rounded-2xl md:w-[99px] md:h-[99px]  md:rounded-[40.05px]"
-                  src={!backgroundImage ? grooveLogo : grooveFace}
+                  src={!avatar ? grooveLogo : grooveFace}
                   alt=""
                 />
               </div>

@@ -22,7 +22,7 @@ const BrandSection = () => {
               Find Dev and IT professionals to scale your business.
             </p>
             <div className="flex flex-col  !items-start space-y-4">
-              <div className="flex space-x-3 md:space-x-6 ">
+              <div className="flex lg:flex-row md:flex-col md:space-y-3 lg:space-y-0 md:space-x-0 space-x-3 lg:space-x-6">
                 <div className="flex space-x-2">
                   <img src={skillsIcon} alt="skillsIcon" className="w-6 h-6" />
                   <p className="text-zwilt-titl2-200/60">989 skills</p>
@@ -102,8 +102,8 @@ const BrandSection = () => {
             <p className="text-xl font-bold font-switzerBold mb-4 ">
               Explore Creative individuals with a keen eye for detail.
             </p>
-            <div className="flex flex-col !items-start space-y-4">
-              <div className="flex space-x-3 md:space-x-6 ">
+            <div className="flex flex-col  !items-start space-y-4">
+              <div className="flex lg:flex-row md:flex-col md:space-y-3 lg:space-y-0 md:space-x-0 space-x-3 lg:space-x-6 ">
                 <div className="flex space-x-2">
                   <img src={skillsIcon} alt="skillsIcon" className="w-6 h-6" />
                   <p className="text-zwilt-titl2-200/60">989 skills</p>
