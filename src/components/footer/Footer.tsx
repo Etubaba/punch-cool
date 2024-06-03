@@ -1,12 +1,8 @@
-import { useState } from "react";
 import buttonIcon from "../../assets/button-icon.svg";
 import zwiltLogo from "../../assets/logo.svg";
 import { footerLinks } from "./content";
 
 function Footer() {
-  const [hover, setHover] = useState(false);
-  const [linkIndex, setlinkIndex] = useState();
-
   return (
     <div className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:mx-w-7xl">
       <div className="bg-zwilt-dark-300 w-full polygon h-8 md:h-12"></div>

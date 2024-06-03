@@ -13,7 +13,7 @@ const Button = ({
     <div
       onClick={onClick}
       className={`relative flex items-center ${
-        size == "sm" ? "w-60" : "w-60"
+        size === "sm" ? "w-60" : "w-60"
       }  h-18 cursor-pointer group`}
     >
       <button

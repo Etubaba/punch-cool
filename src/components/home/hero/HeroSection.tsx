@@ -1,7 +1,5 @@
 import { useState } from "react";
-
 import heroFaceGIF from "../../../assets/hero-face-gif.gif";
-import inputIcon from "../../../assets/input-Icon.svg";
 import imageDivider from "../../../assets/image-divider.svg";
 import { skillsChoice } from "./content";
 import SearchInput from "./SearchInput";
@@ -12,8 +10,6 @@ export default function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const searchValue = useSearchStore((state) => state.searchValue);
-
-  console.log(searchValue);
 
   return (
     <section>
@@ -84,7 +80,7 @@ export default function HeroSection() {
                     val.toLowerCase().includes(searchValue.toLowerCase())
                   ) {
                     return val;
-                  }
+                  } else return val;
                 })
                 .map((option, index) => (
                   <div
