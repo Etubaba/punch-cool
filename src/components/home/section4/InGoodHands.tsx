@@ -17,10 +17,10 @@ function InGoodHands() {
       <div className="bg-white w-full  polygon h-8 md:h-12"></div>
       <div className="bg-white w-full flex -mt-1  px-4 md:px-10 py-28">
         <div className="flex flex-col gap-4 md:w-1/2 ">
-          <h1 className="md:text-[54px] md:max-w-[570px] md:leading-[64px] text-center md:text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">
+          <h1 className="md:text-[54px] md:max-w-[570px] font-switzerBold  md:leading-[64px] text-center md:text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">
             How we ensure you're in good hands.
           </h1>
-          <p className="md:text-[22px] text-lg mt-2 leading-[32px] text-zwilt-text-200/80 md:max-w-[646px] ">
+          <p className="md:text-[22px] font-switzerRegular text-lg mt-2 leading-[32px] text-zwilt-text-200/80 md:max-w-[646px] ">
             With our comprehensive screening process, we hand-pick highly
             skilled candidates so you can onboard them in a matter of days.
           </p>
@@ -49,12 +49,14 @@ function InGoodHands() {
                     />
                   </div>
                   <span className="flex space-x-2">
-                    <p className="text-lg font-bold">{content.step}:</p>
+                    <p className="text-lg font-bold font-switzerBold">
+                      {content.step}:
+                    </p>
                     <p className="text-lg">{content.title}</p>
                   </span>
                 </div>
                 {activeStep === content.step && (
-                  <p className="text-lg animate__animated animate__fadeIn transform duration-700">
+                  <p className="text-lg font-switzerRegular animate__animated animate__fadeIn transform duration-700">
                     {content.message}
                   </p>
                 )}

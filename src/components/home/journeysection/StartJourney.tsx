@@ -5,7 +5,7 @@ const StartJourney = () => {
   return (
     <section className="">
       <div className="2xl:mx-auto 2xl:mx-w-7xl md:my-20 px-4 md:px-10 ">
-        <p className="md:text-[54px] text-[32px] leading-[55px] text-center font-bold md:leading-[64px] mb-[40px]  ">
+        <p className="md:text-[54px] font-switzerBold  text-[32px] leading-[55px] text-center font-bold md:leading-[64px] mb-[40px]  ">
           Start your journey today.
         </p>
 
@@ -33,10 +33,10 @@ const StartJourney = () => {
                   />
                 </div>
                 <div className="flex flex-col  ml-4 md:ml-[20px] md:w-[407px]">
-                  <p className="mb-6 text-[34px] text-zwilt-title-200 max-w-[260px]  md:max-w-[250px] font-bold leading-[44px] text-left md:text-[28px] md:leading-[34px]">
+                  <p className="mb-6 font-switzerBold  text-[34px] text-zwilt-title-200 max-w-[260px]  md:max-w-[250px] font-bold leading-[44px] text-left md:text-[28px] md:leading-[34px]">
                     {step.title}
                   </p>
-                  <p className="text-base mb-4 text-zwilt-text-200/80 font-normal leading-[24px] text-left">
+                  <p className="text-base mb-4 font-switzerRegular text-zwilt-text-200/80 font-normal leading-[24px] text-left">
                     {step.content}
                   </p>
                   <Button size="sm" text={step.buttonText} />

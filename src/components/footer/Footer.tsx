@@ -16,7 +16,7 @@ function Footer() {
           }}
           className="bg-zwilt-purple-600 py-24 lg:py-32   flex flex-col items-center"
         >
-          <p className="text-white mt-8 md:mt-0 md:max-w-[683px] text-2xl lg:text-5xl font-semibold text-center mb-9">
+          <p className="text-white font-switzerRegular mt-8 md:mt-0 md:max-w-[683px] text-2xl lg:text-5xl font-semibold text-center mb-9">
             Need a job done, and done well? Get started
           </p>
           <div className="md:w-16 md:h-16 h-12 w-12 rounded-[14px] md:rounded-[25px] bg-zwilt-dark-400 flex items-center justify-center">
@@ -32,7 +32,7 @@ function Footer() {
           <div className="mt-24 lg:mt-36 flex flex-col lg:flex-row justify-between gap-10 lg:gap-20">
             <div className="w-full lg:w-72 text-white">
               <img src={zwiltLogo} alt="Logo" className="" />
-              <p className="my-8 text-sm">
+              <p className="my-8 text-sm font-switzerRegular">
                 We take complex hiring processes - and simplify them. Connecting
                 you to the world's highly qualified talent pool.
               </p>
@@ -49,7 +49,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex-1">
-              <p className="text-white text-4xl md::text-[54px] leading-[44px] md:text-5xl font-semibold mb-16">
+              <p className="text-white font-switzerBold text-4xl md::text-[54px] leading-[44px] md:text-5xl font-semibold mb-16">
                 Connecting the right people to the right businesses.
               </p>
               <div className="md:flex grid grid-cols-2 md:justify-between gap-8">
@@ -77,7 +77,7 @@ function Footer() {
           <div className="mt-20">
             <div className="bg-gradient-to-r from-white to-zwilt-dark-200 h-[0.5px] w-full"></div>
             <div className="flex  flex-col lg:flex-row justify-between items-center  py-2.5 text-white">
-              <p className="text-base font-medium">
+              <p className="text-base font-switzerRegular font-medium">
                 All rights reserved by Zwilt
               </p>
               <div className="flex space-x-6 lg:mt-0">

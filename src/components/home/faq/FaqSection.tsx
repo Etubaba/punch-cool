@@ -9,7 +9,7 @@ const FaqSection = () => {
       <div className="bg-zwilt-gray-100 w-full  polygon h-8 md:h-12"></div>
       <div className="bg-zwilt-gray-100 w-full flex -mt-1 pb-14 md:pb-32  pt-16">
         <div className="w-full">
-          <p className="md:text-5xl text-[32px]  px-4  text-zwilt-title-200 font-bold !text-center mb-10 md:mb-20">
+          <p className="md:text-5xl text-[32px] font-switzerBold  px-4  text-zwilt-title-200 font-bold !text-center mb-10 md:mb-20">
             Frequently asked questions
           </p>
 
@@ -25,14 +25,14 @@ const FaqSection = () => {
                   >
                     <div className="md:w-1/3 md:flex  hidden">
                       <p
-                        className={`w-full md:w-56 text-lg font-semibold border-r border-gray-300 text-center py-4 ${
+                        className={`w-full md:w-56 font-switzerRegular text-lg font-semibold border-r border-gray-300 text-center py-4 ${
                           ques.category ? "md:block hidden" : "hidden"
                         }`}
                       >
                         {ques.category}
                       </p>
                       <p
-                        className={`w-full md:w-56 text-lg font-semibold text-center py-4 ${
+                        className={`w-full md:w-56 font-switzerRegular text-lg font-semibold text-center py-4 ${
                           ques.sub_category ? "block " : "hidden"
                         } ${
                           ques.sub_category ? "border-r border-gray-300" : ""
@@ -43,7 +43,7 @@ const FaqSection = () => {
                     </div>
                     <div className="flex-1 md:w-2/3 flex justify-between items-center px-6 py-4 hover:bg-gray-200 cursor-pointer transition-colors duration-300">
                       <p
-                        className={`text-lg text-center md:text-left text-zwilt-text-100 ${
+                        className={`text-lg font-switzerRegular text-center md:text-left text-zwilt-text-100 ${
                           active === ques.id ? "font-semibold" : ""
                         }`}
                       >

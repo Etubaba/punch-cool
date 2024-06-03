@@ -6,7 +6,7 @@ const Card = ({ idx, item }: { item: CardProps; idx: number }) => {
   return (
     <div className=" bg-white md:py-8 h-full py-4 rounded-[20px] px-10 flex shadow-lg md:flex-row flex-col ">
       <div className="mt-16 md:w-1/2">
-        <h1 className="md:text-[44px] md:max-w-full md:leading-[54px] text-center md:!text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">
+        <h1 className="md:text-[44px] font-switzerBold md:max-w-full md:leading-[54px] text-center md:!text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">
           {item.title}
         </h1>
         <div className="my-6">
@@ -21,7 +21,7 @@ const Card = ({ idx, item }: { item: CardProps; idx: number }) => {
                     : "text-zwilt-green-100"
                 }  `}
               />
-              <p className="text-zwilt-text-200/80 text-[10px] leading-[20px]">
+              <p className="text-zwilt-text-200/80 font-switzerRegular text-[10px] leading-[20px]">
                 {list}
               </p>
             </li>

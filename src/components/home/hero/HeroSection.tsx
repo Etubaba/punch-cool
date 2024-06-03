@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div className="relative z-10 2xl:mx-auto 2xl:mx-w-7xl px-4 ">
         <div className="flex flex-col mb-10 md:mb-20">
           <div className="w-full mt-16 md:mt-36 flex items-center justify-center mb-5">
-            <div className="text-center w-full  text-zwilt-title-200   text-4xl  leading-[50px] md:text-[54px] font-bold md:leading-[64px] ">
+            <div className="text-center w-full font-switzerBold  text-zwilt-title-200   text-4xl  leading-[50px] md:text-[54px] font-bold md:leading-[64px] ">
               <span className="md:flex  block justify-center items-center">
                 <h1> Finding the right fit</h1>
                 <span className="flex justify-center items-center md:justify-start md:items-start">
