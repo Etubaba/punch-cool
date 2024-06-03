@@ -22,7 +22,7 @@ This React project leverages several key technologies to deliver a high-performa
 
 ### Challenges and Solutions:
 
-One of the primary challenges encountered during development involved working with clip-path polygons to achieve a desired visual effect. To overcome this, I consulted the official Mozilla Developer Network documentation, [here](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). for in-depth guidance on clip-path properties and syntax. This resource proved invaluable in successfully implementing the desired polygon clipping behavior.
+One of the primary challenges encountered during development involved working with clip-path polygons to achieve a desired visual effect. To overcome this, I consulted the official Mozilla Developer Network documentation, [here](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). for in-depth guidance on clip-path properties and syntax. This resource proved valuable in successfully implementing the desired polygon clipping behavior.
 
 ## Getting Started
 
