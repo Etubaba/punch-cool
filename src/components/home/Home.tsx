@@ -24,7 +24,6 @@ import FaqSection from "./faq/FaqSection";
 function App() {
   return (
     <div className="">
-      {/* <Header /> */}
       <HeroSection />
       <BrandSection />
       <HowItWork />
@@ -32,7 +31,6 @@ function App() {
       <StartJourney />
       <Reasons />
       <FaqSection />
-      {/* <Footer /> */}
     </div>
   );
 }

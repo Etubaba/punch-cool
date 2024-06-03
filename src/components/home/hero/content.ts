@@ -4,10 +4,10 @@ export const skillsChoice = [
     choices: [
       "Python Developer",
       "Shopify Developer",
-      "MERN Devloper",
-      "Full stack developer",
+      "MERN Developer",
+      "Fullstack Developer",
       "Data Scientist",
-      "Front End Developer",
+      "Frontend Developer",
       "Shopify Developer",
       "Ruby on rails",
       "Python Developer",

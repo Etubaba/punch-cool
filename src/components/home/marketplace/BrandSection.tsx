@@ -51,7 +51,7 @@ const BrandSection = () => {
                 className="md:w-2/3 bg-white p-6 rounded-lg shadow-lg mt-8"
               >
                 <p className="text-lg font-medium mb-4">{item.title}</p>
-                <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6  lg:hidden place-content-center">
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3   lg:hidden place-content-center">
                   {item.stack.map((stack, index) => (
                     <div
                       key={index}
@@ -133,9 +133,12 @@ const BrandSection = () => {
                 className="md:w-2/3 bg-white p-6 rounded-lg shadow-lg mt-8"
               >
                 <p className="text-lg font-medium mb-4">{item.title}</p>
-                <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6  lg:hidden ">
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3  place-content-center  lg:hidden ">
                   {item.stack.map((stack, index) => (
-                    <div key={index} className=" ">
+                    <div
+                      key={index}
+                      className=" flex justify-center items-center flex-col"
+                    >
                       <div
                         className={`w-16 h-16 flex items-center justify-center ${
                           stack.name ? "rounded-full" : "rounded-lg"

@@ -8,3 +8,8 @@ type Question = {
 export type FaqContent = {
   questions: Question[];
 };
+
+export type SearchStore = {
+  searchValue: string;
+  handleSearch: (value: string) => void;
+};

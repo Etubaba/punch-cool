@@ -20,14 +20,14 @@ function Footer() {
           }}
           className="bg-zwilt-purple-600 py-24 lg:py-32   flex flex-col items-center"
         >
-          <p className="text-white md:max-w-[683px] text-4xl lg:text-5xl font-semibold text-center mb-9">
+          <p className="text-white mt-8 md:mt-0 md:max-w-[683px] text-2xl lg:text-5xl font-semibold text-center mb-9">
             Need a job done, and done well? Get started
           </p>
-          <div className="w-16 h-16 rounded-[25px] bg-zwilt-dark-400 flex items-center justify-center">
+          <div className="md:w-16 md:h-16 h-12 w-12 rounded-[14px] md:rounded-[25px] bg-zwilt-dark-400 flex items-center justify-center">
             <img
               src={buttonIcon}
               alt="Button Icon"
-              className="transform rotate-90 "
+              className="transform rotate-90 w-[20px] h-[20px] md:w-[73.76px] md:h-[73.76px]"
             />
           </div>
         </div>

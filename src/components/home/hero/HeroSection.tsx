@@ -4,11 +4,16 @@ import heroFaceGIF from "../../../assets/hero-face-gif.gif";
 import inputIcon from "../../../assets/input-Icon.svg";
 import imageDivider from "../../../assets/image-divider.svg";
 import { skillsChoice } from "./content";
+import SearchInput from "./SearchInput";
+import { useSearchStore } from "../../../store";
 
 export default function HeroSection() {
   const [selectedField, setSelectedField] = useState("IT & Development");
-  const [searchValue, setSearchValue] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const searchValue = useSearchStore((state) => state.searchValue);
+
+  console.log(searchValue);
 
   return (
     <section>
@@ -37,21 +42,7 @@ export default function HeroSection() {
             With our rigorous pre-vetting process, you'll never have to worry
             about finding the ideal candidate ever again.
           </p>
-          <div className="relative flex justify-between items-center w-full  md:w-[570px] border border-gray-200 rounded-2xl md:flex md:items-center md:mx-auto   mb-10 ">
-            <input
-              value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
-              placeholder="Looking for design |"
-              className="w-5/6 placeholder-gray-700 placeholder:text-sm py-3 md:py-4 px-6  text-lg font-semibold bg-transparent outline-none"
-            />
-            <button className="md:w-[74px] md:h-[74px] h-[54px] w-[54px] bg-zwilt-yellow-500 p-3 md:p-6 rounded-2xl">
-              <img
-                src={inputIcon}
-                className="md:w-[25px] md:h-[15px] ml-1 md:ml-0"
-                alt="input icon"
-              />
-            </button>
-          </div>
+          <SearchInput />
           <div className="flex flex-col bg-zwilt-gray-300 rounded-2xl py-4 px-6 md:px-16  md:mx-auto mb-18 w-full max-w-5xl">
             <div className="w-full justify-center items-center flex">
               <div className="relative md:w-[391px]  flex items-center justify-between  bg-zwilt-gray-200 text-lg font-medium text-center  rounded-lg">
@@ -84,13 +75,21 @@ export default function HeroSection() {
                 ))}
               </div>
             </div>
-            <div className="grid md:grid-cols-3 grid-cols-2 gap-4 mt-6 pb-4">
+            <div className="grid md:grid-cols-3 grid-cols-2 gap-2 md:gap-4 mt-6 pb-4">
               {skillsChoice
                 .filter((item) => item.field === selectedField)[0]
-                .choices.map((option, index) => (
+                .choices.filter((val) => {
+                  if (searchValue === "") return val;
+                  else if (
+                    val.toLowerCase().includes(searchValue.toLowerCase())
+                  ) {
+                    return val;
+                  }
+                })
+                .map((option, index) => (
                   <div
                     key={index}
-                    className="flex justify-center text-gray-600 cursor-pointer hover:text-black hover:font-bold transition ease"
+                    className="flex md:text-base text-sm justify-center text-gray-600 cursor-pointer hover:text-zwilt-text-200 hover:font-bold transition ease"
                   >
                     {option}
                   </div>
