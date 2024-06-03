@@ -10,13 +10,13 @@ const BrandSection = () => {
       <div className=" bg-zwilt-purple-100  w-full polygon h-8 md:h-12"></div>
       <div className=" bg-zwilt-purple-100  -mt-2 md:py-20 py-10 px-4 md:px-10">
         <div className="text-center mb-16 md:px-24">
-          <p className="md:text-[54px] font-switzerBold  text-3xl leading-[50px] md:leading-[64px]  font-bold text-zwilt-title-200">
+          <p className="md:text-[54px] animate__animated animate__fadeIn font-switzerBold  text-3xl leading-[50px] md:leading-[64px]  font-bold text-zwilt-title-200">
             Your one-stop marketplace for finding the talent your business
             needs.
           </p>
         </div>
 
-        <div className=" flex md:flex-row font-switzerRegular flex-col space-y-4 md:space-y-0 space-x-10 lg:space-x-28">
+        <div className=" flex md:flex-row font-switzerRegular flex-col space-y-4 md:space-y-0 md:space-x-10 lg:space-x-28">
           <div className="md:w-1/3 md:mt-6 md:mb-0  mb-10">
             <p className="text-xl font-bold font-switzerBold mb-4 ">
               Find Dev and IT professionals to scale your business.
@@ -97,7 +97,7 @@ const BrandSection = () => {
               </div>
             ))}
         </div>
-        <div className="mt-10 flex md:flex-row flex-col space-y-4 md:space-y-0 space-x-10 lg:space-x-28">
+        <div className="mt-10 flex md:flex-row flex-col space-y-4 md:space-y-0 md:space-x-10 lg:space-x-28">
           <div className="md:w-1/3 md:mt-6 md:mb-0  mb-10">
             <p className="text-xl font-bold font-switzerBold mb-4 ">
               Explore Creative individuals with a keen eye for detail.

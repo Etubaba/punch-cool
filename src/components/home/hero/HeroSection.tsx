@@ -17,7 +17,7 @@ export default function HeroSection() {
         <div className="flex flex-col mb-10 md:mb-20">
           <div className="w-full mt-16 md:mt-36 flex items-center justify-center mb-5">
             <div className="text-center w-full font-switzerBold  text-zwilt-title-200   text-4xl  leading-[50px] md:text-[54px] font-bold md:leading-[64px] ">
-              <span className="md:flex  block justify-center items-center">
+              <span className="md:flex  animate__animated animate__fadeIn block justify-center items-center">
                 <h1> Finding the right fit</h1>
                 <span className="flex justify-center items-center md:justify-start md:items-start">
                   <img
@@ -30,11 +30,15 @@ export default function HeroSection() {
                 </span>
                 <h1 className="md:block hidden">has </h1>
               </span>{" "}
-              <span className="md:hidden block">has never been easier.</span>{" "}
-              <h1 className="md:block hidden">never been easier.</h1>
+              <span className="md:hidden block animate__animated animate__fadeIn">
+                has never been easier.
+              </span>{" "}
+              <h1 className="md:block hidden animate__animated animate__fadeIn">
+                never been easier.
+              </h1>
             </div>
           </div>
-          <p className="text-center text-zwilt-text-100 md:text-xl text-lg font-normal  w-full leading-8 md:w-1/2 mx-auto mb-7">
+          <p className="text-center animate__animated animate__fadeIn text-zwilt-text-100 md:text-xl text-lg font-normal  w-full leading-8 md:w-1/2 mx-auto mb-7">
             With our rigorous pre-vetting process, you'll never have to worry
             about finding the ideal candidate ever again.
           </p>
