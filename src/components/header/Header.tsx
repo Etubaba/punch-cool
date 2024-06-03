@@ -1,6 +1,7 @@
 import Menu from "./Menu";
 import zwiltLogo from "../../assets/logo.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [checked, setChecked] = useState(false);
@@ -15,30 +16,30 @@ function Header() {
       </div>
 
       <div className="md:flex hidden space-x-6 text-sm font-medium">
-        <a href="#" className="hover:underline">
+        <Link to="/find-work" className="hover:underline">
           Find work
-        </a>
-        <a href="#" className="hover:underline">
+        </Link>
+        <Link to="/find-talent" className="hover:underline">
           Find Talent
-        </a>
-        <a href="#" className="hover:underline">
+        </Link>
+        <Link to="/articles" className="hover:underline">
           Articles
-        </a>
-        <a href="#" className="hover:underline">
+        </Link>
+        <a href="/contact-us" className="hover:underline">
           Contact Us
         </a>
       </div>
 
       <div className="md:flex hidden items-center space-x-6">
-        <a href="#" className="hover:underline">
+        <Link to="/login" className="hover:underline">
           Log In
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/learn-more"
           className="ml-5 text-sm font-medium px-5 py-3 bg-white text-black rounded-full"
         >
           Join Now
-        </a>
+        </Link>
       </div>
       <Menu yes={checked} setChecked={setChecked} />
       {checked && (
@@ -47,45 +48,45 @@ function Header() {
             !checked && "opacity-0"
           } px-5 py-5 top-12 animate__animated animate__fadeInLeft z-50 flex flex-col text-center h-auto justify-center space-y-3 items-start bg-zwilt-purple-100 `}
         >
-          <a
-            href="#"
+          <Link
+            to={"/find-work"}
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30  text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Find work
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to={"/find-talent"}
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Find Talent
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to={"/articles"}
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Articles
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to={"/contact-us"}
             onClick={() => {
               setChecked(false);
             }}
             className="hover:bg-[#1B242F]/30 text-zwilt-text-100  py-1 w-full rounded-md"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       )}
     </div>
