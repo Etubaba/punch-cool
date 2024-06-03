@@ -16,7 +16,7 @@ function InGoodHands() {
     <section className="md:-mt-10 -mt-5 z-40 relative 2xl:mx-auto 2xl:max-w-7xl">
       <div className="bg-white w-full  polygon h-8 md:h-12"></div>
       <div className="bg-white w-full flex -mt-1  px-4 md:px-10 py-28">
-        <div className="flex flex-col gap-4 md:w-1/2 ">
+        <div className="flex flex-col gap-4 w-full lg:w-1/2 ">
           <h1 className="md:text-[54px] md:max-w-[570px] font-switzerBold  md:leading-[64px] text-center md:text-left text-4xl leading-[50px] text-zwilt-title-200 font-bold">
             How we ensure you're in good hands.
           </h1>

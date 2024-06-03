@@ -16,9 +16,9 @@ const BrandSection = () => {
           </p>
         </div>
 
-        <div className=" flex md:flex-row font-switzerRegular flex-col space-y-4 md:space-y-0 md:space-x-28">
+        <div className=" flex md:flex-row font-switzerRegular flex-col space-y-4 md:space-y-0 space-x-10 lg:space-x-28">
           <div className="md:w-1/3 md:mt-6 md:mb-0  mb-10">
-            <p className="text-xl font-bold mb-4 ">
+            <p className="text-xl font-bold font-switzerBold mb-4 ">
               Find Dev and IT professionals to scale your business.
             </p>
             <div className="flex flex-col  !items-start space-y-4">
@@ -97,9 +97,9 @@ const BrandSection = () => {
               </div>
             ))}
         </div>
-        <div className="mt-10 flex md:flex-row flex-col space-y-4 md:space-y-0 md:space-x-28">
+        <div className="mt-10 flex md:flex-row flex-col space-y-4 md:space-y-0 space-x-10 lg:space-x-28">
           <div className="md:w-1/3 md:mt-6 md:mb-0  mb-10">
-            <p className="text-xl font-bold mb-4 ">
+            <p className="text-xl font-bold font-switzerBold mb-4 ">
               Explore Creative individuals with a keen eye for detail.
             </p>
             <div className="flex flex-col !items-start space-y-4">
@@ -130,7 +130,7 @@ const BrandSection = () => {
             .map((item, idx) => (
               <div
                 key={idx}
-                className="md:w-2/3 bg-white p-6 rounded-lg shadow-lg mt-8"
+                className="md:w-2/3  bg-white p-6 rounded-lg shadow-lg mt-8"
               >
                 <p className="text-lg font-medium mb-4">{item.title}</p>
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-3  place-content-center  lg:hidden ">
