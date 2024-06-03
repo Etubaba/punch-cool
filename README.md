@@ -14,11 +14,11 @@ This is a landing page web application built with React JS (version 18.3.1). Thi
 
 This React project leverages several key technologies to deliver a high-performance and user-friendly experience:
 
-- Type Safety: TypeScript ensures strong typing throughout the codebase, promoting maintainability and reducing runtime errors.
-- Styling: Tailwind CSS provides a utility-first approach to styling, streamlining development and promoting consistency.
-- Routing: React Router DOM facilitates seamless navigation between different sections of the landing page.
-- Animations: A combination of Animate.css and Tailwind CSS animations enhances the user experience with dynamic interactions.
-  Icons: React Icons offers a comprehensive library of vector icons for a visually appealing interface.
+- Type Safety: Using TypeScript to ensures strong typing throughout the codebase, promoting maintainability and reducing runtime errors.
+- Styling: Using Tailwind CSS to provide a utility-first approach to styling, streamlining development and promoting consistency.
+- Routing:Using React Router DOM to facilitate seamless navigation between different pages of the web application. (Though the pages are empty )
+- Animations: A combination of Animate.css and Tailwind CSS animations to enhances the user experience with dynamic interactions and animation.
+- Icons: I used React Icons for vector icons to ensure a visually appealing interface.
 
 ### Challenges and Solutions:
 
