@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Header() {
   const [checked, setChecked] = useState(false);
   return (
-    <div className="flex mx-4 md:mx-10 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white">
+    <div className="flex mx-4 md:mx-10 shadow-2xl items-center justify-between py-2 md:py-3  px-4 bg-zwilt-purple-600 rounded-2xl mt-9 text-zwilt-white 2xl:mx-auto 2xl:max-w-7xl">
       <div className="ml-4">
         <Link to="/">
           <img

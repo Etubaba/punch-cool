@@ -13,7 +13,7 @@ export default function HeroSection() {
 
   return (
     <section>
-      <div className="relative z-10 2xl:mx-auto 2xl:mx-w-7xl px-4 ">
+      <div className="relative z-10 2xl:mx-auto 2xl:max-w-7xl px-4 ">
         <div className="flex flex-col mb-10 md:mb-20">
           <div className="w-full mt-16 md:mt-36 flex items-center justify-center mb-5">
             <div className="text-center w-full font-switzerBold  text-zwilt-title-200   text-4xl  leading-[50px] md:text-[54px] font-bold md:leading-[64px] ">
@@ -97,7 +97,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="w-full z-10 relative">
+      <div className="w-full z-10 relative 2xl:mx-auto 2xl:max-w-7xl">
         <img src={imageDivider} alt="" className="w-full" />
       </div>
     </section>

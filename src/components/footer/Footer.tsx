@@ -4,7 +4,7 @@ import { footerLinks } from "./content";
 
 function Footer() {
   return (
-    <div className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:mx-w-7xl">
+    <footer className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:max-w-7xl">
       <div className="bg-zwilt-dark-300 w-full polygon h-8 md:h-12"></div>
       <div className="2xl:mx-auto 2xl:mx-w-7xl bg-gradient-to-b -mt-2 from-zwilt-dark-300 to-zwilt-dark-400 px-10 pt-10   ">
         <div
@@ -92,7 +92,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

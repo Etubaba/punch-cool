@@ -18,7 +18,7 @@ const HowItWork = () => {
   };
 
   return (
-    <section className="md:-mt-6 -mt-2 z-35 relative 2xl:mx-auto 2xl:mx-w-7xl">
+    <section className="md:-mt-6 -mt-2 z-35 relative 2xl:mx-auto 2xl:max-w-7xl">
       <img
         src={quote}
         alt="quote"

@@ -5,7 +5,7 @@ import { useState } from "react";
 const FaqSection = () => {
   const [active, setActive] = useState(-1);
   return (
-    <section className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:mx-w-7xl">
+    <section className="md:-mt-9 -mt-5 z-30 relative 2xl:mx-auto 2xl:max-w-7xl">
       <div className="bg-zwilt-gray-100 w-full  polygon h-8 md:h-12"></div>
       <div className="bg-zwilt-gray-100 w-full flex -mt-1 pb-14 md:pb-32  pt-16">
         <div className="w-full">

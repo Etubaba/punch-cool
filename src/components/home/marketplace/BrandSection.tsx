@@ -6,7 +6,7 @@ import Button from "../../common/Button";
 
 const BrandSection = () => {
   return (
-    <section className="md:-mt-6 -mt-2 z-30">
+    <section className="md:-mt-6 -mt-2 z-30 2xl:mx-auto 2xl:max-w-7xl ">
       <div className=" bg-zwilt-purple-100  w-full polygon h-8 md:h-12"></div>
       <div className=" bg-zwilt-purple-100  -mt-2 md:py-20 py-10 px-4 md:px-10">
         <div className="text-center mb-16 md:px-24">

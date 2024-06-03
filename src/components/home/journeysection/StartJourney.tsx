@@ -4,7 +4,7 @@ import { journeySteps } from "./content";
 const StartJourney = () => {
   return (
     <section className="">
-      <div className="2xl:mx-auto 2xl:mx-w-7xl md:my-20 px-4 md:px-10 ">
+      <div className="2xl:mx-auto 2xl:max-w-7xl md:my-20 px-4 md:px-10 ">
         <p className="md:text-[54px] font-switzerBold  text-[32px] leading-[55px] text-center font-bold md:leading-[64px] mb-[40px]  ">
           Start your journey today.
         </p>

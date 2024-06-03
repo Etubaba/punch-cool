@@ -13,7 +13,7 @@ function InGoodHands() {
     }
   };
   return (
-    <section className="md:-mt-10 -mt-5 z-40 relative 2xl:mx-auto 2xl:mx-w-7xl">
+    <section className="md:-mt-10 -mt-5 z-40 relative 2xl:mx-auto 2xl:max-w-7xl">
       <div className="bg-white w-full  polygon h-8 md:h-12"></div>
       <div className="bg-white w-full flex -mt-1  px-4 md:px-10 py-28">
         <div className="flex flex-col gap-4 md:w-1/2 ">
