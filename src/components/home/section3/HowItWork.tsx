@@ -25,7 +25,7 @@ const HowItWork = () => {
         className="absolute -mt-0.5 md:-mt-[1px] -rotate-2 w-[95px] h-[65px]   md:h-[175px] md:w-[221px] top-[5px] right-0 md:right-3 z-[100]"
       />
       <div className="bg-zwilt-purple-900 w-full  polygon h-8 md:h-12"></div>
-      <div className="bg-zwilt-purple-900 w-full flex -mt-1 pt-[150px] px-4 md:px-10 py-28 ">
+      <div className="bg-zwilt-purple-900 w-full flex -mt-1 md:pt-[150px] px-4 md:px-10 py-20 md:py-28 ">
         <div className="flex md:flex-row flex-col md:w-[90%] justify-between">
           <div>
             <div className="md:text-[54px] font-switzerBold  text-4xl leading-[50px] md:leading-[64px] font-bold text-white">
@@ -82,7 +82,7 @@ const HowItWork = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <img
-                  className=" w-[99px] h-[99px] rounded-[40.05px]"
+                  className="w-[70px] h-[70px] rounded-2xl md:w-[99px] md:h-[99px]  md:rounded-[40.05px]"
                   src={!backgroundImage ? grooveLogo : grooveFace}
                   alt=""
                 />

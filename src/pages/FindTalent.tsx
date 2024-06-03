@@ -1,7 +1,7 @@
 import React from "react";
 
 const FindTalent = () => {
-  return <div>FindTalent</div>;
+  return <div className="h-80">FindTalent</div>;
 };
 
 export default FindTalent;
