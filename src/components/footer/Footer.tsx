@@ -16,7 +16,7 @@ function Footer() {
           }}
           className="bg-zwilt-purple-600 py-24 lg:py-32   flex flex-col items-center"
         >
-          <p className="text-white font-switzerRegular mt-8 md:mt-0 md:max-w-[683px] text-2xl lg:text-5xl font-semibold text-center mb-9">
+          <p className="text-white px-4  md:px-0 font-switzerRegular mt-8 md:mt-0 md:max-w-[683px] text-2xl lg:text-5xl font-semibold text-center mb-9">
             Need a job done, and done well? Get started
           </p>
           <div className="md:w-16 md:h-16 h-12 w-12 rounded-[14px] md:rounded-[25px] bg-zwilt-dark-400 flex items-center justify-center">
@@ -49,7 +49,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex-1">
-              <p className="text-white font-switzerBold text-4xl md::text-[54px] leading-[44px] md:text-5xl font-semibold mb-16">
+              <p className="text-white font-switzerBold text-3xl md:text-[54px]  md:leading-[44px] md:text-5xl font-semibold mb-16">
                 Connecting the right people to the right businesses.
               </p>
               <div className="md:flex grid grid-cols-2 md:justify-between gap-8">

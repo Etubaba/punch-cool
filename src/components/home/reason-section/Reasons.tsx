@@ -21,7 +21,7 @@ const Reasons = () => {
           <Carousel
             additionalTransfrom={0}
             arrows={false}
-            autoPlaySpeed={2000}
+            autoPlaySpeed={3000}
             className=""
             containerClass="container-with-dots"
             dotListClass=""

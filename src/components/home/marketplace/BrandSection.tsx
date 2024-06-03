@@ -68,7 +68,7 @@ const BrandSection = () => {
                           src={stack.image}
                         />
                       </div>
-                      <p className="mt-2 text-sm font-semibold break-words">
+                      <p className="mt-2 text-xs md:text-sm font-semibold break-words">
                         {stack.name}&nbsp;&nbsp;
                       </p>
                     </div>
